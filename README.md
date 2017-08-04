@@ -1,2 +1,2 @@
 # richradar
-yay
+yahoo
