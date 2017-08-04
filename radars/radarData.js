@@ -42,8 +42,8 @@ var radar_data = [
         "items" : [
             {"name": 'Git', pc: { r: 40, t: 160 }, movement: 'c' },
             {"name":"Jira", "pc":{"r":40,"t":120},"movement":"c"},
-            {"name":"Jenkins", "pc":{"r":60,"t":150},"movement":"c"},
-            {"name":"Docker", "pc":{"r":250,"t":130},"movement":"c"},
+            {"name":"Jenkins", "pc":{"r":70,"t":140},"movement":"c"},
+            {"name":"Docker", "pc":{"r":290,"t":140},"movement":"c"},
         ]
     },
     { "quadrant": "Techniques",
@@ -51,10 +51,10 @@ var radar_data = [
         "top" : 18,
         "color" : "#587486",
         "items" : [
-           { name: 'TDD',    pc: { r: 50, t: 20 },    movement: 'c' },
-           { name: 'Pair programming',    pc: { r: 240, t: 55 },    movement: 'c' },
-           { name: 'GitFlow',    pc: { r: 160, t: 60 },    movement: 'c' },
-           { name: 'Developer Community',    pc: { r: 260, t: 30 },    movement: 'c' },
+           { name: 'TDD',    pc: { r: 95, t: 20 },    movement: 'c' },
+           { name: 'Pair programming',    pc: { r: 285, t: 55 },    movement: 'c' },
+           { name: 'GitFlow',    pc: { r: 140, t: 60 },    movement: 'c' },
+           { name: 'Development community',    pc: { r: 195, t: 30 },    movement: 'c' },
   ]
     },
     { "quadrant": "Platforms",
@@ -70,7 +70,7 @@ var radar_data = [
             {"name":"Transmit", "pc":{"r":270,"t":250},"movement":"c"},
         ]
     },
-    { "quadrant": "Languages & Frameworks",
+    { "quadrant": "Languages & FWs",
         "color" : "#B70062",
         "left"  : (w-200+30),
         "top" :   (h/2 + 18),
