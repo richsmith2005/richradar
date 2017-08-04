@@ -1,2 +1,1 @@
-# richradar
-yahoo
+Building Our Own Technology Radar
